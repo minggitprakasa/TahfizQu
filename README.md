@@ -4,9 +4,8 @@ Aplikasi pencatat Hafalan Al-Quran
 instal dependency
 "composer intall"
 ## Pembagian Job
-Frontend : Inggit.
+Front-End : Ali, Inggit.
 Back-End : Aji, Norman.
-Full-Stack : Ali.
 ## Tutorial Pengunaan GITHUB
 git pull
 git add .
