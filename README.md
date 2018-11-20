@@ -7,7 +7,7 @@ instal dependency
 Front-End : Ali, M Inggit.
 Back-End : Aji, Norman.
 ## Tutorial Pengunaan GITHUB
-git pull
-git add .
-git commit -m "comment"
+git pull </br>
+git add . </br>
+git commit -m "comment" </br>
 git push
