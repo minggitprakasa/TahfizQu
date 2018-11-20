@@ -7,3 +7,8 @@ instal dependency
 Frontend : Inggit.
 Back-End : Aji, Norman.
 Full-Stack : Ali.
+## Tutorial Pengunaan GITHUB
+git pull
+git add .
+git commit -m "comment"
+git push
