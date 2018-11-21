@@ -1,4 +1,5 @@
 <aside class="main-sidebar">
+    
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
       <!-- Sidebar user panel -->
@@ -28,34 +29,43 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
 
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Akun Guru</span>
+        <li>
+          <a href="{{ route('admin.tambahguru') }}">
+            <span>Tambah Akun Guru</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+              <small class="label pull-right bg-green">new</small>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Tambah Akun Guru</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Hapus Akun Guru</a></li>
-          </ul>
         </li>
 
-        <li class="treeview">
+        <li>
           <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Akun Siswa</span>
+            <span>Hapus Akun Guru</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+              <small class="label pull-right bg-red">del</small>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Tambah Akun Siswa</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Hapus Akun Siswa</a></li>
-          </ul>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span>Tambah Akun Guru</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-green">new</small>
+            </span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span>Hapus Akun Siswa</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-red">del</small>
+            </span>
+          </a>
         </li>
 
+        
         <li><a href="#"><i class="fa fa-book"></i> <span>Cara Penggunaan</span></a></li>
       </ul>
     </section>

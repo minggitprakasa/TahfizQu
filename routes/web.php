@@ -18,13 +18,25 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-//load admin lte
+//adminroute
 Route::get('/admin', function () {
     return view('admin.dashboard');
 });
+Route::get('/admin/tambahguru', 'admincontroller@tambahguru')->name('admin.tambahguru');
+
+
+
+
+
+
+
+
 Route::get('/siswa', function () {
     return view('siswa.dashboard');
 });
 Route::get('/guru', function () {
     return view('guru.dashboard');
+});
+Route::get('/loginsiswa', function () {
+    return view('login.siswa.loginsiswa');
 });

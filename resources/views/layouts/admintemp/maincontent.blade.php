@@ -79,4 +79,5 @@
       <!-- /.row -->
       <!-- Main row -->
     <!-- /.content -->
-  </div>
+  </section>
+</div>
