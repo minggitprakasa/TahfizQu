@@ -1,8 +1,8 @@
 # TahfizQu
 Aplikasi pencatat Hafalan Al-Quran
-## cara Install
+## Cara Install
 instal dependency
-"composer intall"
+"composer install"
 ## Pembagian Job
 Front-End : Ali, M Inggit.
 Back-End : Aji, Norman.
