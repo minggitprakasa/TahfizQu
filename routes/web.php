@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('LoginAdmin');
 });
 
 Auth::routes();
@@ -23,12 +23,7 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 Route::get('/admin/tambahguru', 'admincontroller@tambahguru')->name('admin.tambahguru');
-
-
-
-
-
-
+Route::get('/admin', 'admincontroller@dashboard')->name('admin.dashboard');
 
 
 Route::get('/siswa', function () {
